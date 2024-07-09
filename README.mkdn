@@ -1,8 +1,8 @@
-![Evolution X](https://github.com/Halhadus/manifest/raw/udc/Banner.png)
+![Evolution X](https://github.com/Halhadus/evo-lindroid-manifest/raw/lindroid-21/Banner.png)
 
 # Initialize local repository
 ```
-repo init -u https://github.com/Halhadus/manifest -b lindroid-21 --git-lfs
+repo init -u https://github.com/Halhadus/evo-lindroid-manifest -b lindroid-21 --git-lfs
 ```
 
 # Sync up
