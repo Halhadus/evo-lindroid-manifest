@@ -69,7 +69,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="evo" />
 
   <!-- Infrastructure -->
-  <project path="evolution/manifest" name="Halhadus/evo-lindroid-manifest" remote="github-non-los" revision="lindroid-21" />
+  <project path="evolution/manifest" name="Halhadus/evo-lindroid-manifest" remote="github-non-los" revision="udc" />
   <project path="evolution/OTA" name="OTA" remote="evo" />
   <project path="evolution/XDA" name="XDA" remote="evo" />
 
