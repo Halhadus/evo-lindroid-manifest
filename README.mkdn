@@ -1,8 +1,8 @@
-![Evolution X](https://github.com/Evolution-XYZ/manifest/raw/udc/Banner.png)
+![Evolution X](https://github.com/Halhadus/evo-lindroid-manifest/raw/udc/Banner.png)
 
 # Initialize local repository
 ```
-repo init -u https://github.com/Evolution-XYZ/manifest -b udc --git-lfs
+repo init -u https://github.com/Halhadus/evo-lindroid-manifest -b udc --git-lfs
 ```
 
 # Sync up
@@ -11,18 +11,11 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 # Build
-
-- Set up the build environment
 ```bash
 . build/envsetup.sh
-```
-
-- Lunch a target
-```bash
-lunch lineage_codename-user
-```
-
-- To start compiling
-```bash
-m evolution
+export USE_CCACHE=1
+ccache -M 50G
+croot
+breakfast lineage_marble-userdebug
+brunch lineage_marble-userdebug | tee log.txt
 ```
