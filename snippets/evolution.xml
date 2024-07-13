@@ -65,11 +65,11 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="evo" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="evo" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="evo" />
+  <project path="frameworks/native" name="Halhadus/frameworks_native" groups="pdk" remote="github-non-los" revision="udc" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="evo" />
 
   <!-- Infrastructure -->
-  <project path="evolution/manifest" name="manifest" remote="evo" />
+  <project path="evolution/manifest" name="Halhadus/evo-lindroid-manifest" remote="github-non-los" revision="udc" />
   <project path="evolution/OTA" name="OTA" remote="evo" />
   <project path="evolution/XDA" name="XDA" remote="evo" />
 
@@ -105,7 +105,7 @@
   <project path="vendor/certification" name="vendor_certification" remote="evo" />
   <project path="vendor/extras" name="vendor_extras" remote="evo" />
   <project path="vendor/gms" name="vendor_gms" remote="evo-bitbucket" clone-depth="1" />
-  <project path="vendor/lineage" name="vendor_evolution" remote="evo" />
+  <project path="vendor/lineage" name="Halhadus/vendor_evolution" remote="github-non-los" revision="vanilla" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="evo" />
   <project path="vendor/pixel-style" name="vendor_pixel" remote="evo" />
 </manifest>
